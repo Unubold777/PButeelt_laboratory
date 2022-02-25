@@ -3,7 +3,7 @@ package Laboratory_1;
 public class MyList {
 	protected Object[] mass;
 	protected int size;
-	
+	//fgfhfdf
 	//element = ChangeArrayLength.changeLength1D(element, 2 * size);
 	public MyList(int cap) {
 		if(cap > 0) {
