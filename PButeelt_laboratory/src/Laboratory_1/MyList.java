@@ -3,7 +3,6 @@ package Laboratory_1;
 public class MyList {
 	protected Object[] mass;
 	protected int size;
-	//fgfhfdf
 	//element = ChangeArrayLength.changeLength1D(element, 2 * size);
 	public MyList(int cap) {
 		if(cap > 0) {
@@ -40,8 +39,20 @@ public class MyList {
 		s=s+'}';
 		return s;
 	}
-	
-	
-	
-	
+	public Object get(int index)
+	{
+		checkIndex(index);
+		return mass[index];
+	}
+	public void set(int index,Object elemento) {
+		checkIndex(index);
+		mass[index]=elemento;
+	}
+	public void Insert(Object ner) 
+	{
+		checkIndex(size);
+	Change
+	}
 }
+
+
