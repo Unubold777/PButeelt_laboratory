@@ -48,11 +48,14 @@ public class MyList {
 		checkIndex(index);
 		mass[index]=elemento;
 	}
-	public void Insert(Object ner) 
-	{
-		checkIndex(size);
-	Change
-	}
+public void push(int new_data)
+{
+	Object checkIndex = new Object();
+	Object head;
+	Object new_node;
+	new_node.next = head;
+	head = new_node;
+}
 }
 
 
