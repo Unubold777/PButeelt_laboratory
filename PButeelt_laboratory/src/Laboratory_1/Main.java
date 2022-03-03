@@ -25,13 +25,16 @@ public class Main {
 			i=sc.nextInt();
 			switch(i) {
 			case 1:
+				System.out.println("Утгыг оруулна уу");
 				tempo =sc.next();
 				pck.inserto((Object)tempo);
 				System.out.println("Added!");
 				break;
 			case 2:
-				tempo = sc.next();
+				System.out.println("индексийн дугаарыг оруулна уу");
 				int ind = sc.nextInt();
+				System.out.println("Солих утгыг оруулна уу");
+				tempo = sc.next();
 				pck.set(ind, tempo);
 				System.out.println("Element value changed");
 				break;
@@ -39,6 +42,7 @@ public class Main {
 				System.out.println(pck.toString());
 				break;
 			case 4:
+				System.out.println("Устгах элементийн дугаарыг оруулна уу");
 				int del = sc.nextInt();
 				del--;
 				pck.remove(del);
