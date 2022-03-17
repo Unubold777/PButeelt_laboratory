@@ -4,15 +4,15 @@ public class Main {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		MyList pck = new MyList(7);
+		GList<String> pck = new GList<String>(7);
 		Scanner sc = new Scanner(System.in);
 		int i;
 		String tempo;
-		pck.inserto((Object) "Random");
-		pck.inserto((Object) "Things");
-		pck.inserto((Object) "123456");
-		pck.inserto((Object) "Never");
-		pck.inserto((Object) "goNNA");
+		pck.inserto("Random");
+		pck.inserto( "Things");
+		pck.inserto( "123456");
+		pck.inserto( "Never");
+		pck.inserto( "goNNA");
 		
 		do {
 			System.out.println("1 бол элемент оруулах");
@@ -27,7 +27,7 @@ public class Main {
 			case 1:
 				System.out.println("Утгыг оруулна уу");
 				tempo =sc.next();
-				pck.inserto((Object)tempo);
+				pck.inserto(tempo);
 				System.out.println("Added!");
 				break;
 			case 2:
