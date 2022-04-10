@@ -32,7 +32,7 @@ public class Main {
 				break;
 			case 2:
 				System.out.println("индексийн дугаарыг оруулна уу");
-				int ind = sc.nextInt();
+				int ind = sc.nextInt()-1;
 				System.out.println("Солих утгыг оруулна уу");
 				tempo = sc.next();
 				pck.set(ind, tempo);

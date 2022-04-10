@@ -11,7 +11,7 @@ public class MyList {
 	}
 	void checkIndex(int index)
 	   {
-	      if (index < 0 || index >= size)
+	      if (index < 0 || index > size) 
 	         throw new IndexOutOfBoundsException
 	               ("index = " + index + "  size = " + size);
 	   }
